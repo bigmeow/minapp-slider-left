@@ -1,0 +1,46 @@
+
+.slider-left-item {
+  overflow: hidden;
+  background-color: #fff;
+  /* movable-area重置默认高度 */
+  height: auto;
+}
+
+.slider-left-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 750rpx;
+  background: inherit;
+  color: inherit;
+  /* movable-view重置默认绝对定位 */
+  position: relative;
+  z-index: 1;
+}
+
+
+.slider-left-handle {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 0;
+}
+
+.handle-delete {
+  background-color: red;
+  width: 150rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+
+<swider-left class="swider-item" bind:change="handleChange" bind:delete="handleDelete">
+  <view class='slider-handle'>内容1</view>
+</swider-left>
+<swider-left class="swider-item" open bind:change="handleChange" bind:delete="handleDelete">
+  <view class='slider-handle'>内容2</view>
+</swider-left>
