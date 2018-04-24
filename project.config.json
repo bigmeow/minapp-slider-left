@@ -29,5 +29,17 @@
 			"current": -1,
 			"list": []
 		}
-	}
+	},
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "folder",
+        "value": "doc-img"
+			},
+			{
+        "type": "file",
+        "value": "README.md"
+      }
+    ]
+  }
 }
