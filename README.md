@@ -20,7 +20,7 @@ wechatide://minicode/lUrGBUmn65YS
 ![image](./doc-img/demo1.png)
 - 在页面中即可通过使用`<slider-left></slider-left>`标签来使用本组件了
 
-ps:  由于mpvue目前对solt scope不支持，所以用mpvue的编写的vue组件是无法在循环中使用组件的，所以这里还是用小程序官方提供的组件编写方式来编写，这样在任何第三方脚手架里均可使用;
+ps:  由于mpvue目前对(Slot scoped)[http://mpvue.com/mpvue/#vue_1]不支持，所以用mpvue的编写的vue组件是无法在循环中使用组件的，所以这里还是用小程序官方提供的组件编写方式来编写，这样在任何第三方脚手架里均可使用;
 
 
 ## TODO
