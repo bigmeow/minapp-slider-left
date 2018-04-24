@@ -10,8 +10,20 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.93",
 	"appid": "touristappid",
-	"projectname": "左划删除",
+	"projectname": "%E5%B7%A6%E5%88%92%E5%88%A0%E9%99%A4",
 	"isGameTourist": false,
+	"packOptions": {
+		"ignore": [
+			{
+				"type": "folder",
+				"value": "doc-img"
+			},
+			{
+				"type": "file",
+				"value": "README.md"
+			}
+		]
+	},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -29,17 +41,5 @@
 			"current": -1,
 			"list": []
 		}
-	},
-  "packOptions": {
-    "ignore": [
-      {
-        "type": "folder",
-        "value": "doc-img"
-			},
-			{
-        "type": "file",
-        "value": "README.md"
-      }
-    ]
-  }
+	}
 }
