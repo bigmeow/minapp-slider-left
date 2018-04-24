@@ -6,4 +6,4 @@
 ![image](./doc-img/preview.gif)
 
 最基础的版本的使用方法，你可以打开微信开发工具，然后点击下面的小程序代码片段，即可查看效果
-[点我导入代码片段](wechatide://minicode/lUrGBUmn65YS)
+[点我导入代码片段](wechatide://minicode/lUrGBUmn65YS)
