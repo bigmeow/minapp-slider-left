@@ -84,9 +84,16 @@ exports.default = Component({
         this.setData({ open: true })
       }
     },
+    // 点击删除按钮触发的事件
     handleDelete: function () {
       this.setData({ open: false })
       this.triggerEvent('delete')
+    },
+    // 开始左滑时触发（轻触摸的时候也会触发），主要用于显示当前删除按钮前先 隐藏掉其它项的删除按钮
+    handleTouchestart: function () {
+      if (!this.data.open) {
+        this.triggerEvent('sliderLeftStart')
+      }
     }
   }
 })
