@@ -7,9 +7,9 @@
 在 小程序页面对应的 json配置中引入组件
 ```json
 {
-  "usingComponents": {
-    "slider-left": "路径组件/slider-left/index"
-  }
+ "usingComponents": {
+  "slider-left": "路径组件/slider-left/index"
+ }
 }
 ```
 即可在页面中任意位置使用：
