@@ -1,4 +1,4 @@
-# minapp-slider-left
+# minapp-slider-left ![](https://img.shields.io/badge/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%9F%BA%E7%A1%80%E5%BA%93%E7%89%88%E6%9C%AC-1.9.90-brightgreen.svg)
 微信小程序左划删除组件，可能是性能最好、实现最简单的方案，使用官方组件movable-area、cover-view实现
 
 
