@@ -1,4 +1,4 @@
-<movable-area class="slider-left-item" style="width:{{openWidth * 2 + 750}}rpx;margin-left:-{{openWidth * 2}}rpx;">
+<movable-area class="slider-left-item" style="width:calc({{openWidth}}px + 750rpx);margin-left:-{{openWidth}}px;">
   <movable-view class="slider-left-content"
     damping="100"
     x="{{x}}"
@@ -9,6 +9,6 @@
     <slot></slot>
   </movable-view>
   <view class='slider-left-handle'>
-    <view bind:tap="handleDelete" class='handle-delete'>删除</view>
+    <view bind:tap="handleDelete" style="width:{{openWidth}}px" class='handle-delete'>删除</view>
   </view>
 </movable-area>
