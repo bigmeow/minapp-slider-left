@@ -21,7 +21,7 @@
 | 参数       | 说明      | 类型       | 默认值       | 必须      |
 |-----------|-----------|-----------|-------------|-------------|
 | moveThreshold | 阈值，往左移动超过则显示删除按钮，否则隐藏（一般为删除按钮宽的40%）；单位px | Number | 30 | NO|
-| openWidth | 可以往左拖动的最大距离,或者说是删除按钮的宽度(单位: rpx乘以2，比如你传入50，则组件里是100rpx) | Number | 75 |NO |
+| openWidth | 可以往左拖动的最大距离,或者说是删除按钮的宽度(单位: px) | Number | 75 |NO |
 | open | 是否打开，true表示打开，false表示关闭;该组件有两种状态，左滑显示删除按钮时表示打开，反之关闭;通过修改该属性可以关闭或者打开组件 | Boolean | false | NO|
 #### 事件说明
 | 事件名       | 说明      | 参数       |
@@ -47,7 +47,7 @@ ps:  由于mpvue目前对 [Slot scoped](http://mpvue.com/mpvue/#vue_1)不支持�
 
 + 你也可以复制下面的小程序代码片段地址,打开微信开发工具,导入代码片段，即可查看效果
 ```
-wechatide://minicode/lUrGBUmn65YS
+wechatide://minicode/fuwFLLmd7DLb
 ```
 
 ## TODO
