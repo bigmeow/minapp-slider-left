@@ -10,6 +10,11 @@ Object.defineProperty(exports, '__esModule', {
 exports.default = Component({
 
   properties: {
+    // 组件的可视宽度设置(rpx)
+    width: {
+      type: Number,
+      value: 750,
+    },
     // 阈值，往左移动超过则显示菜单项，否则隐藏（一般为菜单宽的40%）
     moveThreshold: {
       type: Number,
