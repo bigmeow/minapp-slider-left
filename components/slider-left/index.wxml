@@ -1,6 +1,6 @@
 <movable-area
   class="slider-left-item"
-  style="width: calc({{ openWidth }}px + 750rpx);margin-left: -{{openWidth}}px;"
+  style="width: calc({{ openWidth }}px + {{ width }}rpx);margin-left: -{{openWidth}}px;"
 >
   <movable-view class="slider-left-content"
     damping="100"
