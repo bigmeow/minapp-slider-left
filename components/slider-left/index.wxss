@@ -10,7 +10,6 @@
   display: flex;
   align-items: center;
   height: 100%;
-  width: 750rpx;
   background: inherit;
   color: inherit;
   /* movable-view重置默认绝对定位 */
